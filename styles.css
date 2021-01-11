@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;1,500&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("images/pixelsbackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Montserrat", sans-serif;
+}
+
+/*--------------------- Page Title ---------------------*/
+h3 {
+  color: white;
+  text-shadow: 2px 2px black;
+  margin-bottom: -5px;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+/*------------------------Navbar---------------------------*/
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+}
+
+span {
+  padding-right: 6px;
+  padding-left: 17px;
+}
+
+#nav-item1 {
+  color: rgb(182, 61, 25);
+}
+#nav-item2 {
+  color: rgb(197, 197, 62);
+}
+#nav-item3 {
+  color: rgb(84, 131, 22);
+}
+
+#nav-item4 {
+  color: lightblue;
+}
+
+/*------------------------------------Main------------------*/
+
+h1 {
+  font-size: 2.2em;
+  margin-bottom: 10px;
+}
+
+.container {
+  width: 60vw;
+  margin: 0 auto;
+}
+
+main {
+  border-radius: 25px;
+  background: white;
+  box-shadow: 0 2px 20px rgb(0, 0, 0);
+  padding: 30px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+article {
+  margin: 10px;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+#main-img {
+  width: 50%;
+  border: 2px solid yellowgreen;
+  margin: 10px 0;
+}
+
+/*--------------------------------Opis-------------------------*/
+
+#table-section {
+  overflow-x: auto;
+}
+
+table {
+  border-collapse: collapse;
+  background-color: rgba(243, 243, 243, 0.24);
+  border: 2px solid rgb(255, 251, 0);
+  margin: 20px;
+  width: fit-content;
+}
+
+th,
+td {
+  font-size: 11px;
+  color: rgb(124, 124, 124);
+  border: 1px solid rgb(204, 204, 204);
+  padding: 20px;
+}
+
+th {
+  text-align: left;
+  background-color: rgb(230, 227, 227);
+}
+
+td {
+  font-weight: 600;
+}
+
+table tr:nth-child(2n + 1) {
+  background-color: rgb(241, 240, 240);
+}
+
+tr td:nth-child(2n) {
+  text-align: center;
+}
+
+/*-----------------------------Nega-----------*/
+
+iframe {
+  height: 600px;
+  width: 100%;
+}
+
+#gallery {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+/*-----------------Slike-----------------*/
+#img2,
+#img3 {
+  width: 40%;
+}
+
+@media (max-width: 760px) {
+  #main-img,
+  #img2,
+  #img3 {
+    width: 100%;
+  }
+}
